@@ -14,9 +14,9 @@ Fonts are separated by a | */
   --heading-font: "Kanit";
   --paragraph-font: "Josefin Sans";
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #DC2F02;  /* headlines on a white background */ 
+  --headline-color-on-white: rgb(11, 10, 10);  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #D00000; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #FAA307  ;
   --nav-link-color: #F48C06;
@@ -38,7 +38,8 @@ body {
  img {
   display: block;
   margin: 0 auto;
-  max-width: 80%;
+  max-width: 60%;
+  
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
